@@ -14,9 +14,11 @@ public class Start {
         PlaskonosKaczka pk = new PlaskonosKaczka();
         pk.wyswietl();
         pk.plywaj();
+        pk.wykonajLatanie();
 
         DzikaKaczka dk = new DzikaKaczka();
         dk.wyswietl();
-        dk.kwacz();
+        dk.wykoanjKwacz();
+        dk.wykonajLatanie();
     }
 }

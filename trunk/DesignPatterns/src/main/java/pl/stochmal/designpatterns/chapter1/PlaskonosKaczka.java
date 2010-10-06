@@ -11,6 +11,10 @@ package pl.stochmal.designpatterns.chapter1;
  */
 public class PlaskonosKaczka extends Kaczka {
 
+    public PlaskonosKaczka() {
+        kwakanieInterfejs = new Piszcz();
+        latanieInterfejs = new NieLatam();
+    }
     void wyswietl() {
         System.out.println("Wyswietl Plaskonos Kaczka");
     }
