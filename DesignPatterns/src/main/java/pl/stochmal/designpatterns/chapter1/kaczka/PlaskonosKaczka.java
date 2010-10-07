@@ -3,7 +3,10 @@
  * and open the template in the editor.
  */
 
-package pl.stochmal.designpatterns.chapter1;
+package pl.stochmal.designpatterns.chapter1.kaczka;
+
+import pl.stochmal.designpatterns.chapter1.kaczka.zachowania.NieLatam;
+import pl.stochmal.designpatterns.chapter1.kaczka.zachowania.Piszcz;
 
 /**
  *
@@ -15,7 +18,7 @@ public class PlaskonosKaczka extends Kaczka {
         kwakanieInterfejs = new Piszcz();
         latanieInterfejs = new NieLatam();
     }
-    void wyswietl() {
+    public void wyswietl() {
         System.out.println("Wyswietl Plaskonos Kaczka");
     }
 
