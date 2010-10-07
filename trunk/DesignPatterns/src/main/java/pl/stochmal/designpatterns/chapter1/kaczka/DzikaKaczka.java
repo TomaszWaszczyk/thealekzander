@@ -2,9 +2,10 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package pl.stochmal.designpatterns.chapter1;
+package pl.stochmal.designpatterns.chapter1.kaczka;
 
-import pl.stochmal.designpatterns.chapter1.interfaces.KwakanieInterfejs;
+import pl.stochmal.designpatterns.chapter1.kaczka.zachowania.Kwacz;
+import pl.stochmal.designpatterns.chapter1.kaczka.zachowania.LatamBoMamSkrzydla;
 
 /**
  *
@@ -16,7 +17,7 @@ public class DzikaKaczka extends Kaczka {
         kwakanieInterfejs = new Kwacz();
         latanieInterfejs = new LatamBoMamSkrzydla();
     }
-    void wyswietl() {
+    public void wyswietl() {
         System.out.println("Wyswietl Dzika Kaczka");
     }
    

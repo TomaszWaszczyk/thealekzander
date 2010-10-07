@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package pl.stochmal.designpatterns.chapter1;
+package pl.stochmal.designpatterns.chapter1.kaczka;
 
 import pl.stochmal.designpatterns.chapter1.interfaces.KwakanieInterfejs;
 import pl.stochmal.designpatterns.chapter1.interfaces.LatanieInterfejs;
@@ -28,5 +28,13 @@ public abstract class Kaczka {
         latanieInterfejs.lec();
     }
 
-    abstract void wyswietl();
+    public abstract void wyswietl();
+
+    public void ustawLatanieInterfejs(LatanieInterfejs li) {
+        latanieInterfejs = li;
+    }
+
+    public void ustawKwakanieInterfejs(KwakanieInterfejs ki) {
+        kwakanieInterfejs = ki;
+    }
 }
